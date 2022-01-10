@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Luxurious+Roman&display=swap');
+
+code{
+  font-size: 16px;
+}
+
+#main-doc{
+  text-align: auto;
+  font-family: 'Libre Baskerville', serif;
+}
+#merc_logo{
+  align-self: flex-end;
+  
+}
+
+.merc_a_ul{
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0vmin;
+}
+
+.merc_a{
+  list-style: none;
+  height: 20vh;
+  flex-grow: 1;
+  margin: 0vmin;
+  
+}
+
+#a_car{
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  border-radius: 0vmin;
+}
+
+#A-Class{
+  background-color: #D7D4D433;
+}
+
+#A-class_p{
+  color: white;
+  background-color: white;
+  background-image: url('https://www.mercedes-benz.com/en/vehicles/passenger-cars/a-class/_jcr_content/image/MQ6-12-image-20200129105231/00-mercedes-benz-vehicles-a-class-w177-2560x1440.jpeg');
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2vmin;
+
+  
+}
+#c_car{
+  visibility: hidden;
+}
+
+#C-Class{
+  background-color: #D7D4D422;
+}
+
+#c-class-text{
+  
+  margin: auto;
+  font-size: 12px;
+  padding: 0px 30px;
+  color: black;
+}
+#c-class-ul{
+  margin: auto;
+  font-size: 12px;
+  padding: 30px 30px;
+  color: black;
+}
+
+#c-class-p{
+  color: white;
+  background-color: white;
+  background-image: url('https://www.mercedes-benz.com/en/vehicles/passenger-cars/c-class/c-class/_jcr_content/root/slider_0/sliderchilditems/slideritem_0/image/MQ7-0-image-20210223134137/01-mercedes-benz-c-class-saloon-estate-2021-w206-3400x1440.jpeg');
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2vmin;
+}
+.class_div{
+  visibility: hidden;
+}
+
+.merc-e-ul{
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0vmin;
+}
+
+.merc-e{
+  list-style: none;
+  height: 20vh;
+  flex-grow: 1;
+  margin: 0vmin;
+  
+}
+
+#e-car{
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  border-radius: 0vmin;
+}
+
+#E-Class{
+  background-color: #D7D4D433;
+}
+
+#e-class-text{
+  
+  margin: auto;
+  font-size: 12px;
+  padding: 20px 30px;
+  color: black;
+}
+
+#e-class-p{
+  color: white;
+  background-color: white;
+  background-image: url('https://www.mercedes-benz.co.uk/passengercars/mercedes-benz-cars/models/e-class/saloon-w213-fl/design/exterior-design/_jcr_content/mediabox/elements/mediaboxelement/asset.MQ6.0.20200601105311.jpeg');
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2vmin;
+}
+#g-class-p{
+  color: white;
+  background-color: white;
+  background-image: url('https://www.mercedes-benz.com/en/vehicles/passenger-cars/g-class/the-new-mercedes-maybach-g-650-landaulet/_jcr_content/root/slider_mb_topimage_0/sliderchilditems/slideritem_0/image/MQ7-0-image-20190724154946/000-Topstory-Mercedes-Benz-Fahrzeuge-Mercedes-Maybach-G-650-Landaulet-W-463-3400x1440.jpeg');
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2vmin;
+}
+
+#g-car{
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  border-radius: 0vmin;
+}
+
+#G-Class{
+  background-color: #D7D4D433;
+}
+
+#g-class-text{
+  
+  margin: auto;
+  font-size: 12px;
+  padding: 20px 30px;
+  color: black;
+}
+
+#s-class-p{
+  color: white;
+  background-color: white;
+  background-image: url('https://www.mercedes-benz.com/en/vehicles/passenger-cars/s-class/s-class/_jcr_content/image/MQ6-12-image-20200902140748/00-mercedes-benz-s-class-2020-br223-2560x1440.jpeg');
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2vmin;
+}
+
+#s-car{
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  border-radius: 0vmin;
+}
+
+#S-Class{
+  background-color: #D7D4D433;
+}
+
+#s-class-text{
+  
+  margin: auto;
+  font-size: 12px;
+  padding: 20px 30px;
+  color: black;
+}
+
+#main-doc{
+  
+  position: absolute;
+  margin-left: 410px;
+  padding: 20px;
+  top: 30vw;
+} 
+  
+  
+Section{
+  width: 700px;
+  margin: auto;
+  
+}
+
+Section header {
+  padding: 2vmin;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#A_class_text{
+  background-color: #00000044;
+  margin: auto;
+  font-size: 12px;
+  padding: 30px 30px;
+  color: white;
+}
+
+#navbar {
+  
+  gap: 4px 1px; 
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "helvetica";
+  font-size: 12px;
+  position: fixed;
+  height: 100%;
+  min-width: 300px;
+  width: 300px;
+  
+  top: 0px;
+  left: 0px;
+  
+  color: white;
+  background-color: black;
+  padding: 25px 50px;
+  
+}
+#merc_title{
+  align-self: flex-end;
+  left: 5px;
+  min-width: 250px;
+  font-size: 16px;
+}
+
+#navbar a{
+  color: white;
+  border-color: grey;
+  height: 15px;
+  padding: 5px 5px;
+  border-width: 1px;
+  text-decoration: none;
+  border-style: groove;
+}
+#navbar a:hover{
+  color: grey;
+  background-color: white;
+}
+
+
+@media only screen and (max-width: 768px){
+  display: flex;
+  flex-direction: column;
+  
+  #merc_logo{
+    position: absolute;
+    height: auto;
+    min-width: 300px;
+    width: 300px;
+    
+    top: 10px;
+    left: 0px;
+    
+    z-index: 2;
+    
+  }
+  
+  #navbar{
+    position: absolute;
+    max-height: 300px;
+    max-width: 300px;
+    width: 300px;
+    
+    top: 0px;
+    left: 0px;
+    
+    z-index: 1;
+  }
+  
+  #main-doc{
+  position: relative;
+  margin-left: 0px;
+  margin-top: 30px;
+  }
+}
